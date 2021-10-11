@@ -1,0 +1,99 @@
+.header{
+    background: url("../img/bg.jpg") no-repeat center top;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size:cover;
+    min-height: 695px;
+}
+
+.logo img{
+    margin-left: 5%;
+    width: 5%;
+    position: absolute;
+    margin-top: 1.5em; 
+}
+
+/* menu */
+.top-menu{
+    float:right;
+    margin-top: 1.5em;
+    margin-right: 7em;
+}
+.top-menu ul li{
+	display: inline-block;
+	padding: 5px 15px 0px 15px;
+}
+.top-menu ul li a{
+	font-size: 1.3em;
+	color: #fff;
+    text-decoration: none;
+	text-transform: uppercase;
+	
+}
+.top-menu ul li a:hover {
+    color: red;
+    border-bottom: .1em solid white;
+}
+
+/* form */
+form{
+    width: 40%;
+    min-height: 550px;
+    margin-left: 30%;
+    margin-top: 1.5%;
+    float: left;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.login-box{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login-box h1{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: #072833;
+}
+.textbox{
+    font-size: 1.5em;
+    margin: 40px 0;
+    font-weight: lighter;
+}
+.textbox i{
+    width: 50px;
+    float: left;
+}
+.textbox input{
+    font-size: 1em;
+    padding: 10px 70px;
+    border-radius: 50px;
+    border:2px solid #072833;
+}
+.btn{
+    display: inline-block;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    transition: background-color 0.2s, border 0.2s color 0.2;
+    padding: 10px 170px;
+    text-decoration: none;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.btn :hover{
+    background: #072833;
+}
+.login-box a{
+    font-weight: lighter;
+   text-decoration: none;
+   color:#072833;
+   padding: 2px 0;
+}
+.login-box a:hover{
+    font-size: 1.1em;
+    border-bottom: 1px solid red;
+    transition: 0.2s;
+}

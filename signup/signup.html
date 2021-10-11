@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <title>Sign Up</title>
+
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+</head>
+<body>
+    <div class="header">
+        <!-- logo-box -->
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="hk"></a>
+        </div>
+        <!-- menu-box -->
+        <div class="top-menu">
+            <span class="menu"> </span>
+            <ul>
+                <nav>
+                <li><a class="active" href="../Home/index.html"><span data-hover="Home">home</span></a></li>
+                <li><a href="../post/post.html" class="scroll"><span data-hover="post">posts</span></a></li>
+                <li><a href="../about/about.html" class="scroll"><span data-hover="about">about us</span></a></li>
+                <li><a class="scroll" href="../signup/signup.html"><span data-hover="sign up">sign up</span></a></li>
+                </nav>
+            </ul>
+        </div>
+        <!-- form -->
+        <form>
+            <div class="login-box">
+
+                <h1>Create an Account!</h1>
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="textbox">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="textbox">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" id="confirmpassword" placeholder="Confirm Password" required>
+                </div>
+                <br>
+                <input class="btn" type="button" value="Sign Up" onclick="clicked()">
+                <br>
+                <a href="../login/login.html">Already Have an Account? Login Now!</a>   
+            </div>
+        </form>
+    </div>
+</body>
